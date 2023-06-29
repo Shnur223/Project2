@@ -14,7 +14,7 @@ float h = 350;
 Mat matrix, imgWarp, sum_rgb;
 int main() {
 
-    string path = "C:/library/Project4/cards.jpg";//указать путь на изображение
+    string path = "C:/library/Project4/cards.jpg";//СѓРєР°Р·Р°С‚СЊ РїСѓС‚СЊ РЅР° РёР·РѕР±СЂР°Р¶РµРЅРёРµ
     Mat img = imread(path);
 
     Point2f scr[4] = { {686,700},{1028,1000},{105,1000},{432,1345} };
